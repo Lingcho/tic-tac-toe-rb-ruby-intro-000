@@ -102,8 +102,10 @@ end
 end
 
 def play(board)
-
   until over?(board)
-  turn(board)
-end
+    turn(board)
+  end
+  if won?(board)
+    puts "#{winner(board)}" Win the game
+  end
 end

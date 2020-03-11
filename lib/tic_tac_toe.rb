@@ -35,7 +35,7 @@ def turn(board)
   if valid_move?(board, index)
     move(board, index, current_player(board))
     display_board(board)
-    
+
   else
     turn(board)
   end
@@ -111,5 +111,3 @@ end
 def play(board)
 
 end
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-p turn(board)

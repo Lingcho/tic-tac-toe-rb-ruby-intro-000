@@ -106,6 +106,6 @@ def play(board)
     turn(board)
   end
   if won?(board)
-    puts "#{winner(board)}" Win the game
+    puts "#{winner(board)} Win the game"
   end
 end

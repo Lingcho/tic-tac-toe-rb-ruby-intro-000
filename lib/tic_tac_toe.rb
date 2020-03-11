@@ -89,8 +89,6 @@ def draw?(board)
     true
   elsif won?(board)
       false
-
-
   end
 end
 

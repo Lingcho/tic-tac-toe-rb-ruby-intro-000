@@ -102,5 +102,8 @@ end
 end
 
 def play(board)
-  untill over?
+
+  untill over?(board)
+  turn(board)
+end
 end

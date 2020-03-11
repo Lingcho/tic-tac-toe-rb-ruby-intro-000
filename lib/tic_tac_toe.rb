@@ -90,6 +90,8 @@ def draw?(board)
     false
   elsif won?(board)
     false
+  else
+    true
   end
 end
 

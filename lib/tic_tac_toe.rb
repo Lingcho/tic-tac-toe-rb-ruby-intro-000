@@ -103,7 +103,7 @@ end
 
 def play(board)
 
-  untill over?(board)
+  until over?(board)
   turn(board)
 end
 end

@@ -111,3 +111,5 @@ end
 def play(board)
 
 end
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+p turn 

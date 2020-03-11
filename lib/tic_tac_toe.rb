@@ -102,5 +102,5 @@ end
 end
 
 def play(board)
-
+  untill over?
 end
